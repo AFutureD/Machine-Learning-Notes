@@ -26,7 +26,7 @@ $$
 
 为了使估计值$\hat{y}$接近于$y$，我们定义**cost function** :
 $$
-\mathit{J}(\theta) = \frac{1}{2}\sum ^{m}_{i = 1}(h_{\theta}(x^{(i)})-y^{(i)})^2
+\mathit{J}(\theta) = \frac{1}{2m}\sum ^{m}_{i = 1}(h_{\theta}(x^{(i)})-y^{(i)})^2
 $$
 有了cost function，我们的目标就是：
 
@@ -47,7 +47,7 @@ $$
 
 首先，梯度下降是通过不断更新 $\theta$ 的值，而找到最优的情况。对于一个凸函数来说，是让当前的 $\theta $ 往函数下降最快的方向进行移动，以此更新 $\theta $ ，而更新的量，就是函数的导数了。所以，对于某一特征系数有更新公式：
 $$
-\theta_j := \theta_j-\alpha \cdot\frac{\partial}{\partial\theta_j}\mathit{J}(\theta)
+\theta_j := \theta_j-\alpha \cdot \frac{1}{m} \cdot \frac{\partial}{\partial\theta_j}\mathit{J}(\theta)
 $$
 我们从一个样本来看梯度下降，首先对 $\mathit{J}(\theta)$ 求 $\theta$ 的偏导：
 $$
@@ -71,7 +71,7 @@ $$
 $$
 \begin{eqnarray*}
 &&\large{重复直到收敛}\{\\
-&& \quad \quad \theta_j := \theta_j +\alpha \cdot \sum^{m}_{i=1}(y^{(i)}-h_{\theta}(x^{(i)}))x_j\\
+&& \quad \quad \theta_j := \theta_j +\alpha \cdot \frac{1}{m} \cdot \sum^{m}_{i=1}(y^{(i)}-h_{\theta}(x^{(i)}))x^{(i)}_j\\
  &&\}
 \end{eqnarray*}
 $$
@@ -181,3 +181,5 @@ $$
 多项式回归可以用来拟合二次、三次、高次模型，通过使用 $\pmb{x}^2,\sqrt{\pmb{x}}$ 等进行拟合。 
 
 这样便将高阶方程模型转换成线性回归模型。这也算是 **特征缩放(Features Scaling)** 的一种。
+
+

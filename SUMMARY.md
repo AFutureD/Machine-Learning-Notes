@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [Symbolic Representation](symbolic-representation.md)
-* [Liner Regression.md](liner-regressionmd.md)
+* [Symbolic Representation](Symbolic-Representation.md)
+* [Liner Regression.md](Liner-Regressionmd.md)
 * [Logistic Regression](Logistic-Regression.md)
 * Neural Network
 * Decision Tree
