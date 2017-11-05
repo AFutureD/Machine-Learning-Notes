@@ -8,29 +8,7 @@ Last Tuesday at 10:06 PM
 
 # 文章目录
 
-[Symbolic Representation](https://www.notion.so/207aa710c1e241f0ae067a17dae5813f)
 
-[Liner Regression.md](/Liner Regression.md)
-
-[Logistic Regression](https://www.notion.so/77499bbeb38242dab33f417d7f65335d)
-
-[Neural Network](https://www.notion.so/3eb7be6f66d34152896c422279ccc3e2)
-
-[Decision Tree](https://www.notion.so/909b11ec17d4454085e327146f49735e)
-
-[Support Vector Machine](https://www.notion.so/b384da1a798b47bea2b5e482e8f016de)
-
-[Bayesian Descision Theory](https://www.notion.so/5dbefa491fcc4cb59d2a73d0130dd000)
-
-[Clustering](https://www.notion.so/f9fa721fdf6246ce801ef2161c776b0a)
-
-[Anomaly Detection](https://www.notion.so/6604abe54d6a4f6fb998680e8bfb4c51)
-
-[Recommender System](https://www.notion.so/4bd9b775c03c4ed4b8ea9a599d4af95d)
-
-[Model Evaluation and Selection](https://www.notion.so/2d0f53360ba24c1b863d25a1b0e9f022)
-
-[Large Datasets](https://www.notion.so/8cdbeb723bbd47d79b37ce96ae1b28ee)
 
 # 总结
 
