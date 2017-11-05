@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * Symbolic Representation
-* Liner Regression.md
+* [Liner Regression.md](liner-regressionmd.md)
 * Logistic Regression
 * Neural Network
 * Decision Tree
