@@ -6,6 +6,7 @@
 ## 基本过程
 现在，我们有 $m$ 个样本 $\pmb{x}$,对于每一个样本 $\pmb{x}^{(i)}$ ，一共有 $n$ 个特征值，为 $\pmb{x}^{(i)}_{j}$ 。有 $n$ 个系数（模型参数）$\theta_0\quad\theta_1\dots\theta_n$。
 则我们的预测函数为:
+
 $$
 h_{\theta}(x) = \theta_0 +\theta_1 x_1+\theta_2 x_2 +\dots+\theta_n x_n
 $$
@@ -28,11 +29,14 @@ $$
 \mathit{J}(\theta) = \frac{1}{2}\sum ^{m}_{i = 1}(h_{\theta}(x^{(i)})-y^{(i)})^2
 $$
 有了cost function，我们的目标就是：
+
 $$
 \DeclareMathOperator*{\argmin}{arg\,min} 
 \pmb{\theta} = \mathop{\argmin}_{}{\mathit{J}_{\theta}(x)}
 $$
+
 ## 求解 $\theta$ 的方法
+
 > 基于均方误差最小化来进行模型求解的方法称为“最小二乘法”。——周志华《机器学习》
 
 上述的 cost function 就是基于了均方误差。最小二乘法就是试图找到一条“线”，使所有样本到直线的欧式距离之和最小。
