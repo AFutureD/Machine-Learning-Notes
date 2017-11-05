@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Symbolic Representation](symbolic-representation.md)
 * [Liner Regression.md](liner-regressionmd.md)
-* Logistic Regression
+* [Logistic Regression](Logistic-Regression.md)
 * Neural Network
 * Decision Tree
 * Support Vector Machine

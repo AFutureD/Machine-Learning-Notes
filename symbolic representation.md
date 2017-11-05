@@ -25,3 +25,4 @@ $\sigma$ ：$D$上某一特征下$\pmb{x}^i$的标准差
 $\mathcal{H}​$ ：假设空间
 
 $\widehat{y}$ ：$y$ 的估计量
+
