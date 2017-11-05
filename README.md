@@ -1,6 +1,6 @@
 Last Tuesday at 10:06 PM
 
->   Machine learning is a field of computer science that gives computers the ability to learn without being explicitly programmed.
+> Machine learning is a field of computer science that gives computers the ability to learn without being explicitly programmed.
 
 # 前言
 
@@ -10,7 +10,7 @@ Last Tuesday at 10:06 PM
 
 [Symbolic Representation](https://www.notion.so/207aa710c1e241f0ae067a17dae5813f)
 
-[Liner Regression](https://www.notion.so/1b1ca981b93a42d8a7511768af875191)
+[Liner Regression.md](/Liner Regression.md)
 
 [Logistic Regression](https://www.notion.so/77499bbeb38242dab33f417d7f65335d)
 
@@ -33,3 +33,6 @@ Last Tuesday at 10:06 PM
 [Large Datasets](https://www.notion.so/8cdbeb723bbd47d79b37ce96ae1b28ee)
 
 # 总结
+
+
+
