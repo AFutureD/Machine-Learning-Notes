@@ -11,9 +11,7 @@
 
 在回归学习中，我们的函数都类似于$f(\pmb{y}|\pmb{x}); \pmb{\theta} \sim \mathcal{N}(\mu,\sigma^2)$ 或者在之后讲的二分类函数 $f(\pmb{y}|\pmb{x}); \pmb{\theta} \sim \rm{Bernoulli}(\phi)$ ，这里的 $\mu$ 和 $\phi$ 都分别是 $x$ 和 $\theta$ 的某种函数（ $\sigma$ 与分布无关 ）。其实，有一种更广泛的模型，这两种模型都是它的特例，这种更广泛的模型叫做广义线性模型。
 
->   在广义线性模型中(GLM), 对于每个独立参数的 $\pmb{y}$ ，假设通过一个指数族产生。这就是说，对于均值 $\mu$ 
->
->   , 和独立变量 $\pmb{x}$，有：
+>   在广义线性模型中(GLM), 对于每个独立参数的 $\pmb{y}$ ，假设通过一个指数族产生。这就是说，对于均值 $\mu$ , 和独立变量 $\pmb{x}$，有：
 >   $$
 >   E(\pmb{y})=\pmb{\mu}=g^{-1}(\pmb{\theta}^{\mathit{T}} \pmb{x})
 >   $$
@@ -31,7 +29,7 @@ $$
 
 $\eta$ ：该分布的自然参数（natural parameter，也叫典范参数 canonical parameter）；
 
-$T(y)​$ ：充分统计量（sufficient statistic），我们目前用的这些分布中通常 $T(y) = y​$ ；
+$T(y)$ ：充分统计量（sufficient statistic），我们目前用的这些分布中通常 $T(y) = y$ ；
 
  $a(\eta)$ ：一个**对数分割函数（log partition function）**；
 

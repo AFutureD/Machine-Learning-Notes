@@ -6,7 +6,6 @@
 ## 基本过程
 现在，我们有 $m$ 个样本 $\pmb{x}$,对于每一个样本 $\pmb{x}^{(i)}$ ，一共有 $n$ 个特征值，为 $\pmb{x}^{(i)}_{j}$ 。有 $n$ 个系数（模型参数）$\theta_0\quad\theta_1\dots\theta_n$。
 则我们的预测函数为:
-
 $$
 h_{\theta}(x) = \theta_0 +\theta_1 x_1+\theta_2 x_2 +\dots+\theta_n x_n
 $$
@@ -69,11 +68,11 @@ $$
 $$
 对于一个训练集，我们就得到：
 $$
-\begin{eqnarray*}
-&&\large{重复直到收敛}\{\\
-&& \quad \quad \theta_j := \theta_j +\alpha \cdot \frac{1}{m} \cdot \sum^{m}_{i=1}(y^{(i)}-h_{\theta}(x^{(i)}))x^{(i)}_j\\
- &&\}
-\end{eqnarray*}
+\begin{aligned}
+&重复直到收敛\{\\
+&\quad \quad \theta_j := \theta_j +\alpha \cdot \frac{1}{m} \cdot \sum^{m}_{i=1}(y^{(i)}-h_{\theta}(x^{(i)}))x^{(i)}_j\\
+ &\}
+\end{aligned}
 $$
 
 ### 求导
@@ -164,7 +163,7 @@ $$
 为了找到 $L(\pmb{\theta})$ 的最大值，我们不能直接使用 $L(\pmb{\theta})$ ，而要使用严格递增的 $L(\pmb{\theta})$ 的函数求最大值。使用对数函数来找对数函数 $L(\pmb{\theta})$ 的最大值是一种方法，而且求导来说就简单了一些：
 $$
 \begin{align}
-v& = \log{\mit{L}(\pmb{\theta})}\\
+v& = \log{L(\pmb{\theta})}\\
 &=\log{ \prod^m_{i=1} \frac{1}{\sqrt{2\pi}\sigma}\mathrm{exp}(-\frac{(y^{(i)}-\pmb{\theta}^T\pmb{x}^{(i)})^2}{2\sigma^2})}\\
 &=\sum^m_{i=1}\log{ \prod^m_{i=1} \frac{1}{\sqrt{2\pi}\sigma}\mathrm{exp}(-\frac{(y^{(i)}-\pmb{\theta}^T\pmb{x}^{(i)})^2}{2\sigma^2})}\\
 &=m\log{ \frac{1}{\sqrt{2\pi}\sigma} -\frac{1}{\sigma^2} \cdot \sum^m_{i=1}(y^{(i)}-\pmb{\theta}^T\pmb{x}^{(i)})^2}
